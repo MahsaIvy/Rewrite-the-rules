@@ -1,0 +1,17 @@
+:root {
+  --orange: #ff8800;
+  --width: 100px;
+  --height: 100px;
+  --radius: 50px;
+}
+
+body {
+  background-color: #011212;
+}
+
+.ball {
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--orange);
+  border-radius: var(--radius);
+}
